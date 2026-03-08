@@ -1,0 +1,71 @@
+body{
+    font-family: Arial;
+    margin:0
+}
+
+header{
+    background-color: violet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: violet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #ddd;
+    padding: 10px;
+}
+
+nav li{
+    margin:0 15px;
+    cursor: pointer;
+}
+
+nav li{
+    margin:0 15px;
+    cursor: red;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main{
+    width: 60%;
+    border: 2px black;
+    padding: 10px;
+}
+
+.sidebar{
+    width: 20%;
+    border: 2px black;
+    padding: 10px;
+}
+
+button:hover{
+    background: orange;
+}
+
+.box{
+    width: 200px;
+    border: 2px black;  
+    padding: 10px;
+    margin: 20px;
+}
+
+.gameboxes{
+    display: flex;
+    justify-content: space-between;
+}
