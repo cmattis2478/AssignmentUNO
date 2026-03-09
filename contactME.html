@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Contact Me</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="home.html"> Home</a></li>
+<li><a href="games.html"> Games</a></li>
+<li><a href="contact.html"> Contact Us</a></li>
+</ul>
+</nav>
+
+<h2 style="text-align:center;">Send a Message</h2>
+
+<form style="text-align:center;" onsubmit="return validateForm();">
+
+<label>Name</label><br>
+<input type="text" required>
+
+<br><br>
+
+<label>Date</label><br>
+<input type="date" required>
+
+<br><br>
+
+<label>Message</label><br>
+<textarea id="message" rows="6" cols="40" required></textarea>
+
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<footer>
+<p>CM's Game Arcade</p>
+</footer>
+
+</body>
+</html>
