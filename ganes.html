@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Games</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Game Center</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="home.html">🏠 Home</a></li>
+<li><a href="games.html">🎮 Games</a></li>
+<li><a href="contact.html">✉ Contact Us</a></li>
+</ul>
+</nav>
+
+<h2 style="text-align:center;">Rock Paper Scissors</h2>
+
+<form style="text-align:center;" onsubmit="return playGame();">
+
+<input type="radio" name="choice" value="Rock" required>Rock
+<input type="radio" name="choice" value="Paper">Paper
+<input type="radio" name="choice" value="Scissors">Scissors
+
+<br><br>
+
+<button type="submit">Play</button>
+
+</form>
+
+<div class="gameboxes">
+
+<div class="box">
+You Chose
+<p id="userChoice"></p>
+</div>
+
+<div class="box">
+Computer Chose
+<p id="computerChoice"></p>
+</div>
+
+</div>
+
+<footer>
+<p>Corey's Game Arcade</p>
+</footer>
+
+</body>
+</html>
